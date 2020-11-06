@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-escale=1.0">
+	<title>Inicio de sesion | ITA</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+     
+     <div class="container">
+       <div	class="form-box">
+       	<br />
+        	<h2 align="center">Inicia sesión</h2>
+        	<br />	
+        		<img  id="img-user" src="img/user.png">	
+        <form id="login" class="input-group" action="funcion inicio sesion.php" method="POST">
+        	<input type="text" name="user" class="input-field" placeholder="Nombre de usuario"  autofocus required>
+        	<input type="password" name="password" class="input-field" placeholder="Contraseña" required>
+        	<br />
+        	<input type="checkbox" id="cb1" value="check"><span>Usuario administrador</span>
+        	<br /><br />
+        	<button type="submit" class="submit-btn" name="submit">Acceder</button>
+        </form>
+       </div>
+       <footer>
+       	<center>
+    	<span id="sp-foot"> Av. Adolfo López Mateos #1801 Ote.
+               Fracc. Bona Gens C.P. 20256.
+               Aguascalientes, Ags., México. Instituto Tecnológico de Aguascalientes.</span>
+        </center>
+    </footer> 
+     </div>
+</body>
+</html>
